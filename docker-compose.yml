@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  server:
+    build: ./backend
+    expose:
+      - ${APP_SERVER_PORT}
+    environment:
+      API_HOST: ${API_HOST}
+      APP_SERVER_PORT: ${APP_SERVER_PORT}
+    ports:
+      - ${APP_SERVER_PORT}:${APP_SERVER_PORT}
+    volumes:
+      - ./backend:/app/server
+    command: npm run start
+  
+  client:
+    build: ./frontend
+    environment:
+      - REACT_APP_PORT=${REACT_APP_PORT}
+      - API_HOST=${API_HOST}
+    expose:
+      - ${REACT_APP_PORT}
+    ports:
+      - ${REACT_APP_PORT}:${REACT_APP_PORT}
+    volumes:
+      - ./frontend:/app
+    command: npm run start

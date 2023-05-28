@@ -1,0 +1,61 @@
+.Sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 250px;
+  background: white;
+  border-right: 1px solid #eee;
+  overflow-y: auto;
+  z-index: 2;
+  display: flex;
+}
+
+.SidebarList {
+  height: auto;
+  padding: 0;
+  width: 100%;
+}
+
+.SidebarList .row {
+  width: 100%;
+  height: 70px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.SidebarList .row:hover {
+  cursor: pointer;
+  background-color: #eee;
+}
+
+.menu-btn {
+  background: transparent;
+  border: none;
+}
+
+.close-btn {
+  background: biwhsque;
+  border: none;
+  padding-top: 30px;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.close-btn:hover {
+  cursor: pointer;
+}
+
+.menu-btn:hover {
+  cursor: pointer;
+  color: rgb(220, 57, 59);
+}
+
+.shop-category-btn{
+  font-size: 1.5rem;
+}

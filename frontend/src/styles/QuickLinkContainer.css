@@ -1,0 +1,60 @@
+.quickLinksSmallContainer img{
+    /* width: 50%; */
+    align-self: center;
+  }
+  @media screen and (min-width: 1440px) {
+    .quickLinksSmallContainer img{
+      width: 50%;
+    }
+  }
+  
+  .quick-link-container-title{
+    font-size: 2.5rem;
+    padding: 15px 0px;
+    font-weight: 600;
+    background-image: linear-gradient(60deg, deepskyblue, darkred);
+    background-clip: text;
+    color: transparent;
+  }
+  .quick-link-large-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .quickLinksSmallContainer{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: #eee;
+    /* background-color: rgb(130,194,219); */
+    width: 30vw;
+    height: 500px;
+    padding: 45px;
+    margin: 10px;
+    border-radius: 30px;
+    /* height: 400px; */
+  }
+  .quick-links-btn{
+    background-color: rgb(220, 57, 59);
+    padding: 5px 20px;
+    border-radius: 50px;
+    font-size: 1.3rem;
+    color: white;
+    margin-top: 10px;
+  }
+  .quick-links-btn:hover{
+    background-color: rgb(200, 57, 59);
+  }
+  .quickLinksSmallContainer img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .quick-links-title{
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  

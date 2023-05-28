@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  nginx:
+    depends_on:
+      - api
+      - client
+    restart: always
+    build:
+      dockerfile: Dockerfile
+      context: ./nginx
+    ports:
+      - "80:80"
+      - "443:443"
+  
+
+  api:
+    build:
+      dockerfile: Dockerfile
+      context: "./backend"
+    # ports:
+    #   - "9000:9000"
+    volumes:
+      - /app/node_modules
+      - ./backend:/app
+  
+  client:
+    stdin_open: true
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    build:
+      dockerfile: Dockerfile
+      context: ./frontend
+    ports: ["3000:3000"]
+    volumes:
+      - /app/node_modules
+      - ./frontend:/app
+

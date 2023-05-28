@@ -1,0 +1,62 @@
+.contact-us-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70vw;
+    margin-top: 50px;
+    font-size: 15px;
+    padding-bottom: 80px;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70vw;
+    height: 90vh;
+    font-weight: bold;
+}
+
+.contact-us label{
+    font-size: 20px;
+}
+
+.contact-us-name, .contact-us-email{
+    font-size : 15px;
+}
+.contact-us input[type="contact-us-name-text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.contact-us input[type="contact-us-email-text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.contact-us-message textarea{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.contact-us-submit-btn{
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgb(220, 57, 59);
+    padding: 10px 60px;
+    border-radius: 10px;
+}
+
+.contact-us-submit-btn:hover{
+    background-color: black;
+    transition: all 1s ease;
+}

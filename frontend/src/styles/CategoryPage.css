@@ -1,0 +1,9 @@
+.category-title{
+    font-size: 1.8rem;
+    padding: 15px 0px;
+    font-weight: 600;
+    background-image: linear-gradient(60deg, deepskyblue, red);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}

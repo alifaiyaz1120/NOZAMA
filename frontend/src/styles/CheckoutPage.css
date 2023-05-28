@@ -1,0 +1,102 @@
+.checkout-page{
+  display: flex;
+  width: 100vw;
+}
+
+.address-payment-wrapper{
+  margin: 40px;
+  flex: 2;
+}
+
+.sidebar-wrapper{
+  flex: 1;
+}
+
+.Address{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Payment{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.address-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+}
+
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+.address-form input {
+  border: 1px solid black;
+  width: 100%;
+  padding: 5px;
+  border-radius: 50px;
+}
+
+.payment-form input {
+  border: 1px solid black;
+  width: 100%;
+  padding: 5px;
+  border-radius: 50px;
+}
+
+.submit-btn {
+  font-size: 1.5rem;
+  border-radius: 50px;
+  padding: 5px 15px;
+  text-align: center;
+  background-color: #a0d2db;
+  color: black;
+}
+
+.submit-btn:hover {
+  cursor: pointer;
+  background-color: rgb(220, 57, 59);
+  color: white;
+  transition: all 0.5s ease;
+}
+.address-title {
+  text-align: center;
+  font-size: 2.0rem;
+  font-weight: 500;
+}
+.payment-title {
+  text-align: center;
+  font-size: 2.0rem;
+  font-weight: 500;
+}
+
+.sidebar-wrapper{
+  margin: 30px
+}
+
+.subtotal-title {
+  font-size: 1.5rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  color: rgb(220, 57, 59);
+}
+
+.checkout-page-title{
+  text-align: center;
+  color: rgb(220, 57, 59);
+  font-size: 2.5rem;
+  font-weight: 600;
+}

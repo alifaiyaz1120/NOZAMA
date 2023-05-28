@@ -1,0 +1,30 @@
+.SearchBar {
+  display: flex;
+}
+
+.SearchBar input {
+  border-radius: 50px;
+  border: 1px solid black;
+  padding: 5px 10px;
+  font-size: 1.2rem
+}
+
+.searchIcon {
+  margin-left: 1px;
+  border: 1px solid black;
+  border-radius: 50px;
+  background: white;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchIconImage{
+  padding: 5px;
+}
+
+.SearchBar button:hover {
+  cursor: pointer;
+  background: #eee;
+}

@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "amazon-cognito-identity-js": "^6.2.0",
+    "aws-sdk": "^2.1363.0",
+    "axios": "^1.2.0",
+    "concurrently": "^7.6.0",
+    "webpack": "^5.80.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "concurrently -n 'backend,frontend' -c 'red,green' \"nodemon app.js\" \"npm run frontend\""
+  }
+}
