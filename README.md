@@ -1,4 +1,4 @@
-# NOZAMA
+# NOZAMA 🛍️ 🛒
 
 [Demo Video](https://youtu.be/OmStX00KRp4)
 
@@ -9,6 +9,8 @@ Built using React JS, the site features a modern and responsive design. Users ca
 Nozama pulls product data via API calls to [Dummy JSON](https://dummyjson.com/docs/products). API calls are made in the backend which is written in ExpressJS. React Router serves as a middle man to handle client and server-side routing in our React application.
 
 The app was dockerized inorder to host on an AWS EC2 Instance. 
+
+Implemented a microservices architecture during design/construction of application.
 
 ## Utilization of AWS
 AWS Cognito was used to help Nozama authenticate its new/returning users. 
@@ -36,4 +38,20 @@ AWS IAM was used for role/permission management for the AWS services used.
 - [AWS Amplify](https://aws.amazon.com/amplify/) (Replaced by AWS EC2 for hosting)
  
 ### Architecture Map:
-![Screen Shot 2023-05-15 at 5 26 51 PM](https://github.com/nozama-cloud/E-Commerce-Nozama/assets/71999538/b32d5b96-76d0-4bcd-b7b3-35ca9f5770c8)
+![Screen Shot 2023-05-24 at 3 59 32 PM](https://github.com/ashdeep-singh02/Nozama_E-Commerce/assets/71999538/0dad65a2-b846-44ce-979d-d477f591270e)
+
+### Running the Application Locally:
+Starting the Backend: 
+```shell
+cd backend
+
+node app.js
+```
+
+Starting the Frontend: 
+```shell
+cd frontend
+
+npm run start
+```
+
