@@ -1,6 +1,6 @@
 # NOZAMA 🛍️ 🛒 
 
-Click here watch our [Demo Video](https://youtu.be/OmStX00KRp4)
+[Demo Video](https://youtu.be/OmStX00KRp4)
 
 Nozama is a E-Commerce platform designed to provide a user-friendly and enjoyable shopping experience for our customers. 
 
