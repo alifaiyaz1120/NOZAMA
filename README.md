@@ -2,6 +2,8 @@
 
 [Demo Video](https://youtu.be/OmStX00KRp4)
 
+Created By: Ali Faiyaz, Ashdeep Singh, Ashok Surujdeo
+
 Nozama is a E-Commerce platform designed to provide a user-friendly and enjoyable shopping experience for our customers. 
 
 Built using React JS, the site features a modern and responsive design. Users can shop for products directly through the homepage or search for specific products using our search bar or filter products using the category sidebar. 
